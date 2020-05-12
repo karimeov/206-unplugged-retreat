@@ -123,7 +123,7 @@ a {
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-size: 1.5em;
+  font-size: 1.875em;
   font-weight: 500;
 }
 
@@ -141,11 +141,11 @@ p {
 }
 
 img {
-
+  width: 100%;
 }
 
 figure {
-
+  margin: 0;
 }
 
 address {
@@ -182,6 +182,14 @@ header .content-wrapper {
   margin: 0;
 }
 
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .header-divider {
   background: #3a3a3a;
   width: 100%;
@@ -207,7 +215,7 @@ header nav ul {
 }
 
 header nav ul li {
-  font-size: 1.125;
+  font-size: 1.125em;
 }
 /* Footer */
 
@@ -255,6 +263,10 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  min-height: 500px;
+  background: url('../img/hero-img.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .hero-area h1 {
@@ -299,6 +311,9 @@ input[type=button] {
 }
 
 .features {
+  background: url('../img/features-img.jpg');
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
@@ -520,7 +535,7 @@ input[type=button] {
   }
 
   header nav {
-    width: 20%;
+    width: 20%; /*30%?*/
   }
 
   header nav ul {
@@ -529,6 +544,10 @@ input[type=button] {
 
   .header-divider {
     display: none;
+  }
+
+  .hero-area {
+    min-height: 600px;
   }
 
   .hero-area h1 {
@@ -575,6 +594,7 @@ input[type=button] {
     width: 85%;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
   }
@@ -668,6 +688,10 @@ input[type=button] {
     padding: 15px 0;
   }
 
+  .hero-area {
+    min-height: 775px;
+  }
+
   .content-wrapper {
     max-width: 960px;
   }
@@ -688,7 +712,7 @@ input[type=button] {
 
   .hero-area h1 {
     font-size: 3.75em;
-    width: 60%;
+    width: 80%;
   }
 
   aside .content-wrapper {
@@ -712,12 +736,13 @@ input[type=button] {
     flex-basis: 33%;
   }
 
-  .reviews h2 {
-    padding-bottom: 50px;
-  }
 
   .reviews article div {
     width: 42%;
+  }
+
+  .reviews h2 {
+    padding-bottom: 50px;
   }
 
   footer h4 {

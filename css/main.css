@@ -113,6 +113,8 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -125,6 +127,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -272,7 +275,7 @@ footer .copyright {
   justify-content: center;
   flex-flow: row wrap;
   min-height: 500px;
-  background: url('../img/hero-img.jpg');
+  background: url(../img/hero-img.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -564,7 +567,7 @@ input[type=button] {
   }
 
   header nav {
-    width: 30%;
+    width: 20%;
   }
 
   header nav ul {
@@ -728,10 +731,6 @@ input[type=button] {
 
   header {
     padding: 15px 0;
-  }
-
-  .hero-area {
-    min-height: 775px;
   }
 
   .content-wrapper {

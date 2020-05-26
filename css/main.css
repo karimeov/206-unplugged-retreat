@@ -280,6 +280,11 @@ footer .copyright {
   background-position: center;
 }
 
+.hero-area .content-wrapper {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .hero-area h1 {
   font-size: 2.25em;
   font-family: 'Poppins', Helvetica, Arial, sans-serif;
